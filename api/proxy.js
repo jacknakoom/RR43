@@ -4,7 +4,7 @@ export const config = {
 
 export default async function handler(req) {
   const url = new URL(req.url);
-  const targetUrl = `http://213.176.94.55${url.pathname}${url.search}`;
+  const targetUrl = `http://62.60.159.122${url.pathname}${url.search}`;
   
   return fetch(targetUrl, {
     method: req.method,
